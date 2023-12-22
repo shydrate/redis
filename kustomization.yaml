@@ -1,0 +1,13 @@
+namespace: redis
+resources:
+- ./templates/master/application.yaml
+- ./templates/master/service.yaml
+- ./templates/replicas/application.yaml
+- ./templates/replicas/service.yaml
+- ./templates/configmap.yaml
+- ./templates/headless-svc.yaml
+- ./templates/health-configmap.yaml
+- ./templates/scripts-configmap.yaml
+- ./templates/secret.yaml
+- ./templates/serviceaccount.yaml
+- namespace.yaml
